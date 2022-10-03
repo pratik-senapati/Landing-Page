@@ -1,3 +1,7 @@
+body
+{
+    margin:0;
+}
 *
 {
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
@@ -6,11 +10,40 @@
 .h /*adding style to the header logo*/
 {
 
+
+}
+
+button, footer
+{
+    background-color:#3882F6 ;
+    color: white;
+    font-weight: 700;
 }
 
 .top
 {
     background-color:#1F2937;
+    display: flex;
+    flex-direction: column;
+}
+
+.head
+{
+    display:flex;
+    justify-content: space-around;
+
+}
+
+.list
+{
+    display:flex;
+    justify-content: space-between;
+
+}
+
+li
+{
+    padding-left: 25px;
 }
 
 ol /*header link style*/
@@ -18,10 +51,10 @@ ol /*header link style*/
     list-style: none
 }
 
-a /*header link style*/
+a, .t /*header link style*/
 {
     text-decoration: none;
-    color:grey;
+    color:#E5E7EB;
 }
 
 .h
@@ -29,3 +62,71 @@ a /*header link style*/
     font-weight: 900;
     color: white;
 }
+
+.mid
+{
+    display:flex;
+    justify-content: center;
+    padding:60px 100px 100px 100px;
+    
+    
+
+    align-items: flex-start;
+}
+
+.para
+{
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
+
+}
+
+button
+{
+   align-self:flex-start; 
+   border-radius: 5px;
+}
+
+.txt
+{
+    font-size: 48px;
+    font-weight:900;
+    flex-wrap: wrap;
+    width: 500px;
+    margin-bottom:0;
+    color: white;
+    margin-top: 0;
+}
+
+.t
+{
+    flex-wrap: wrap;
+    width: 500px;
+
+}
+
+.img_1
+{
+    height:210px;
+    width:500px;
+}
+
+button
+{
+    padding:5px 25px;
+}
+
+.middle
+{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.img
+{
+    display:flex;
+}
+
