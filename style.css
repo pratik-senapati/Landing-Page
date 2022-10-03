@@ -13,11 +13,19 @@ body
 
 }
 
-button, footer
+.last
 {
     background-color:#3882F6 ;
     color: white;
     font-weight: 700;
+    border:0;
+    outline:0;
+    padding:5px;
+    align-self:flex-start; 
+   border-radius: 5px;
+    
+    
+
 }
 
 .top
@@ -83,11 +91,7 @@ a, .t /*header link style*/
 
 }
 
-button
-{
-   align-self:flex-start; 
-   border-radius: 5px;
-}
+
 
 .txt
 {
@@ -113,7 +117,7 @@ button
     width:500px;
 }
 
-button
+button *
 {
     padding:5px 25px;
 }
@@ -182,4 +186,61 @@ button
    margin-left:auto;
    font-weight: 900;
    font-size:20px ;
+}
+
+.foo
+{
+    display: flex;
+    justify-content: space-around;
+    background-color:white;
+    height:300px;
+    align-items: center;
+    justify-content: center;
+    
+    
+}
+
+.foot
+{
+    display:flex;
+    flex-direction: column;
+   
+    
+}
+.foofoo
+{ 
+    background-color:#3882F6;
+    width:900px;
+    border-radius: 8px;
+    display:flex;
+    justify-content: space-around;
+    height:125px;
+    align-items: center;
+    
+}
+
+.hm
+{
+    border:2px solid white;
+    padding:5px 25px;
+    height:auto;
+    width:auto;
+
+}
+
+.ff
+{
+    color:white;
+    font-size: 20px;
+    font-weight: 700;
+    margin:0;
+    padding:2px;
+
+}
+
+.fff
+{
+    margin:0;
+    padding:2px;
+    color: white;
 }
